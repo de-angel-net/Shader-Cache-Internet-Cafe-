@@ -3,9 +3,9 @@ Shader Cache Internet Cafe Server &lt;> Client
 
 Sistem shader cache sharing untuk warnet / game center berbasis PowerShell dan shared folder Windows.
 
-==================================================
+==============================
 STRUKTUR SISTEM
-==================================================
+==============================
 
 SERVER:
 - Merge_Shader.ps1
