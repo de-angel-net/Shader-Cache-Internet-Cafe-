@@ -26,11 +26,11 @@ $PCs = @{
     "PC20" = "AMD"
 }
 
+$Game     = "MarvelRivals"   # edit sesuai judul game
 $SERVER   = "\\192.168.0.1\Shadercache"
 $Local    = "$env:LOCALAPPDATA"
 $PCName   = $env:COMPUTERNAME
 $LogFile  = "\\192.168.0.1\Shadercache\$PCName\robocopy_${Game}_stop_$PCName.log"
-$Game     = "MarvelRivals"   # edit sesuai judul game
 
 Write-Output "Mengupload shader $Game ke server..."
 
