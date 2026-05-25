@@ -35,10 +35,10 @@ $PCs = @{
     "PC20" = "AMD"
 }
 
+$Game     = "MarvelRivals"   # edit sesuai judul game
 $SERVER   = "\\192.168.0.1\Shadercache\Games"
 $Local    = "$env:LOCALAPPDATA"
 $LogFile  = "\\192.168.0.1\Shadercache\$env:COMPUTERNAME\robocopy_${Game}_start_$env:COMPUTERNAME.log"
-$Game     = "MarvelRivals"   # edit sesuai judul game
 
 Write-Output "Membersihkan cache shader lokal..."
 
